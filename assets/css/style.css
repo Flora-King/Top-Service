@@ -16,7 +16,7 @@ a {
 }
 
 body {
-    color: brown;
+    color: black;
 }
 nav a {
     text-align: left;
@@ -28,4 +28,12 @@ nav a {
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+/* hero image section*/
+
+#hero {
+    background: url('../images/pexels-huy-phan-2277385.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
