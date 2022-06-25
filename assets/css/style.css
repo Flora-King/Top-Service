@@ -236,6 +236,48 @@ nav {
     overflow: hidden;
 }
 
+
+/* enquiry form*/
+.enquiry-form {
+    clear: left;
+    background-image: url('../images/office-picture.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    overflow: hidden;
+}
+.enquiry {
+    margin: 150px 10% 0 0;
+    color: black;
+    max-width: 700px;
+    position: absolute;
+    padding: 25px;
+    left: 10%;
+    background-color: rgba(125, 113, 113, 0.6);
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 300px;
+    margin-top: 40px;
+}
+
+.text-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border-radius: 2px;
+   
+}
+.enquiry h2, p {
+    margin-top: 0 auto;
+    margin-bottom: 15px;
+    text-align: left;
+} 
+
 /* Contact us*/
 
 .contact {
@@ -290,12 +332,3 @@ footer {
 }
 
 
-
-/* enquiry form*/
-.enquiry-form {
-    clear: left;
-    background-image: url('../images/office-picture.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
