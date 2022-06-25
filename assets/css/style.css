@@ -55,6 +55,17 @@ nav {
     font-size: 0.938rem;
 }
 
+/* burger menu*/
+
+.burger-menu div {
+    width: 25px;
+    height: 5px;
+    background-color: rgb(226, 226, 226);
+    margin: 3px;
+}
+.burger-menu {
+    display: none;
+}
 /* hero image section*/
 
 #hero {
