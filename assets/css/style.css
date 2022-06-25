@@ -288,3 +288,14 @@ footer {
     text-emphasis: strong;
     letter-spacing: 2px;
 }
+
+
+
+/* enquiry form*/
+.enquiry-form {
+    clear: left;
+    background-image: url('../images/office-picture.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
