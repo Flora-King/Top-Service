@@ -176,6 +176,7 @@ nav {
 .service-list-item div {
     width: 100%;
     box-sizing: border-box;
+    display: inline-block;
 }
 
 #services .service-list-item h3 {
@@ -227,4 +228,31 @@ nav {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+}
+
+/* Contact us*/
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* footer*/
+footer {
+    height: 150px;
+}
+.footer-links {
+    text-align: center;
+}
+.footer-links > li {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-links i {
+    font-size: 100%;
+    margin: 2%;
+    padding: 2%;
+    color: black;
 }
