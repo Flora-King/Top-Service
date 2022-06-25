@@ -1,3 +1,4 @@
+/* common style*/
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 
 * {
@@ -21,6 +22,15 @@ a {
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+p {
+   color: black; 
+   text-align: left;
+   font-size: 1.1rem;
+   line-height: 1.3rem;
+   font-weight: 200px;
+   letter-spacing: 0.02rem;
 }
 /* nav and logo*/
 
@@ -165,4 +175,7 @@ nav {
 
 #services .service-list-item p {
     text-align: left;
+    font-size: 1.1rem;
+
 }
+
