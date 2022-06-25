@@ -129,7 +129,7 @@ nav {
     text-align: center;
     margin: 0 auto;
     text-align: center;
-    padding: 100px 0;
+    padding: 10px 0;
     margin-bottom: 120px;
 }
 #services .section-header {
@@ -153,23 +153,31 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
  
 }
 
-#services .service-list-item {
-    flex-basis: 80%;
+.service-list-item .service-info {
+    /*flex-basis: 50%;*/
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 5px;
+    border-radius: 2px;
     background-color: rgb(185, 188, 183);
     margin: 10px 5%;
-
-
 }
+.service-list-item::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.service-list-item div {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 #services .service-list-item h3 {
     font-size: 30px;
     color: whitesmoke;
@@ -183,4 +191,40 @@ nav {
     font-size: 1.1rem;
 
 }
+.house-keeping {
+    background-image: url('../images/House\ Keeping.jpg');
+    background-repeat: no-repeat;
+    background-color: none;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.gardening {
+    background-image: url('../images/gardening.jpg');
+    background-repeat: no-repeat;
+    background-color: none;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
 
+.baby-sitting {
+    background-image: url('../images/baby\ sitting.jpg');
+    background-repeat: no-repeat;
+    background-color: none;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.laundry {
+    background-image: url('../images/Laundry.jpg');
+    background-repeat: no-repeat;
+    background-color: none;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
