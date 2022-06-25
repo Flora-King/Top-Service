@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>TOP Service</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1 id="logo">TOP Service</h1>
+            </div>
+            <ul class="navigation-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                <li><a href="#"><button>Contact</button></a></li>
+            </ul>
+            <div class="burger-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+                <div class="line4"></div>
+
+            </div>
+            
+            
+        </nav>
+    </header>
+
+   <!-- <section id="hero">
+        <div class="hero-image container">
+           <div><h1>Let's take the search out of searching for services</h1></div> 
+            <a href="#" type="button" class="cta">Go to Services</a>
+        </div>
+    
+    </section>-->
+
+    <section class="enquiry-form">
+        <form class="enquiry" method="POST" action="#">
+            <h2>Service Enquiry</h2>
+            <p>Submit your enquiry using the form below and to receive a response within 24 hours</p>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" class="text-input" name="first_name" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" class="text-input" name="last_name" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" class="text-input" name="email-address" required>
+            <label for="service">Service</label>
+            <select id="service" name="service">
+                <option value="gardening">Gardening</option>
+                <option value="gardening">Baby Sitting</option>
+                <option value="gardening">Laundry Services</option>
+                <option value="gardening">House Keeping</option>
+            </select>
+            <label for="location">Your location</label>
+            <select id="location" name="location">
+                <option value="london">London</option>
+                <option value="within-M25">Within M25</option>
+                <option value="midlands">Midlands</option>
+                <option value="east-sussex">East Sussex</option>
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+
+    </section>
+
+    <footer class="footer-links">
+        <ul>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://Instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://Pinterest.com" target="_blank" rel="noopener" aria-label="Visit our Pinterest page (opens in a new tab)"><i class="fab fa-pinterest"></i></a></li>
+            <p><i class="far fa-copyright"></i> 2022 TOP Service</p>
+        </ul>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/7e83172e26.js" crossorigin="anonymous"></script>
+</body>
+</html>
