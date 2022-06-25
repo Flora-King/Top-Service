@@ -15,19 +15,44 @@ a {
     text-decoration: none;
 }
 
-body {
-    color: black;
-}
-nav a {
-    text-align: left;
-    text-decoration: none;
-}
 .container {
     height: 100vh;
     width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
+}
+/* nav and logo*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    font-family: 'Joan',  sans-serif;
+    background-color: rgb(74, 80, 71);
+}
+.logo {
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.navigation-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.navigation-links li {
+    list-style: none;
+}
+
+.navigation-links a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 0.938rem;
 }
 
 /* hero image section*/
