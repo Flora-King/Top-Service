@@ -153,4 +153,16 @@ nav {
     border-radius: 15px;
     background-color: cadetblue;
     margin: 10px 5%;
+    opacity: 0.8;
+}
+#services .service-list-item h3 {
+    font-size: 30px;
+    color: whitesmoke;
+    margin-bottom: 5px;
+    margin-top: 0 auto;
+    text-transform: capitalize;
+}
+
+#services .service-list-item p {
+    text-align: left;
 }
