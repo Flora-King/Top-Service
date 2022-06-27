@@ -380,7 +380,10 @@ padding-top: 50px;
 padding-bottom: 10px;
 }
 
+.footer-links i {
+    color: black;
 
+}
 
 /*
 #footer .footer-links {
@@ -411,9 +414,7 @@ padding-bottom: 10px;
     text-align: center;
     color: black;
 }
-.footer-links i {
-    color: black;
-}
+
 .footer-links p {
     text-align: center;
     text-emphasis: strong;
