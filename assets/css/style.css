@@ -123,13 +123,17 @@ nav {
 }
 /* hero image section*/
 
-#hero {
+/*#hero {
     background: url('../images/pexels-huy-phan-2277385.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-}
+}*/
 
 /* services section*/
+
+/*#services {
+    background-image: url('../images/pexels-tim-douglas-6205772.jpg');
+}*/
 #services .services {
     flex-direction: column;
     text-align: center;
@@ -198,8 +202,9 @@ nav {
     font-size: 1.1rem;
 
 }
+
 .house-keeping {
-    background-image: url('../images/House\ Keeping.jpg');
+    /*background-image: url('../images/House\ Keeping.jpg');*/
     background-repeat: no-repeat;
     background-color: none;
     height: 100%;
@@ -208,7 +213,7 @@ nav {
     overflow: hidden;
 }
 .gardening {
-    background-image: url('../images/gardening.jpg');
+   /* background-image: url('../images/gardening.jpg');*/
     background-repeat: no-repeat;
     background-color: none;
     width: 100%;
@@ -217,17 +222,19 @@ nav {
     overflow: hidden;
 }
 
-.baby-sitting {
-    background-image: url('../images/baby\ sitting.jpg');
-    background-repeat: no-repeat;
-    background-color: none;
+/*.baby-sitting {
     width: 100%;
+}*/
+.baby-sitting {
+   /*background-image: url('../images/baby\ sitting.jpg');*/
+    width: 100%;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
 }
 .laundry {
-    background-image: url('../images/Laundry.jpg');
+    /*background-image: url('../images/Laundry.jpg');*/
     background-repeat: no-repeat;
     background-color: none;
     height: 100%;
@@ -237,11 +244,11 @@ nav {
 }
 
 
-/* enquiry form*/
+/*enquiry form*/
+
 .enquiry-form {
-    clear: left;
     background-image: url('../images/office-picture.jpg');
-    background-size: cover;
+   background-size: cover;
     background-position: center;
     height: 900px;
     overflow: hidden;
