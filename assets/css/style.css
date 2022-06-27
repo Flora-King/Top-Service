@@ -287,29 +287,45 @@ nav {
 
 /* Contact us*/
 
-.contact {
-    display: flex;
-    align-items: center;
+#contact .contact {
+
+max-width: 1200px;
+margin: 0 auto;
+
+}
+
+#contact .contact-items {
+    width: 400px;
+    align-items: flex-start;
+}
+
+#contact .contact-list {
+    width: 80%;
+    padding: 20px;
+    text-align:center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
     justify-content: center;
-    flex-direction: column;
-    padding-top: 1px;
-}
-
-#tel {
-    width: 33%;
-    float: left;
+    align-items: left;
+    box-shadow: 0 0 18px #0000002c;
+    transition: .3s ease box-shadow;
 
 }
-
-#address {
-    width: 33%;
-    float: right;
-
+#contact .contact-list h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 5px;
 }
 
-#email {
-    width: 33%;
-    margin: 0 auto;
+#contact .contact-list h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 5px;
+}
+#contact .contact-list:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
 }
 /* footer*/
 footer {
