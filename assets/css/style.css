@@ -167,137 +167,35 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }*/
+#services .services-intro {
+    flex-basis: 100%;
+    margin: 2.5%;
 
-/* services section*/
-
-/*#services {
-    background-image: url('../images/pexels-tim-douglas-6205772.jpg');
-}*/
-#services .services {
-    flex-direction: column;
-    text-align: center;
-    margin: 0 auto;
-    text-align: center;
-    padding: 10px 0;
-    margin-bottom: 120px;
-}
-#services .section-header {
-    letter-spacing: 2px;
-    font-size: 40px;
-    font-weight: 5px;
-    line-height: 2.5rem;
-    color: black;
-    text-transform: capitalize;
-    text-align: center;
-    margin-top: 120px;
-}
-/*#services .services-intro p {
-    font-size: 20px;
-    margin-top: 1px;
-    line-height: 2rem;
-    font-weight: 200px;
-    letter-spacing: 0.05rem;
-}*/
-#services .services-details {
-    display: flex;
-    align-items: center;
-    justify-content: center;
- 
+    justify-items: center;
 }
 
-.service-list-item .service-info {
-    /*flex-basis: 50%;*/
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: 5px;
-    border-radius: 2px;
-    background-color: rgb(185, 188, 183);
-    margin: 10px 5%;
-}
-.service-list-item::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.service-list-item div {
-    width: 100%;
-    box-sizing: border-box;
-    display: inline-block;
-}
-
-#services .service-list-item h3 {
-    font-size: 30px;
-    color: whitesmoke;
-    margin-bottom: 5px;
-    margin-top: 0 auto;
-    text-transform: capitalize;
-}
-
-#services .service-list-item p {
-    text-align: left;
-    font-size: 1.1rem;
+#services .services-details .service-list-item {
+    flex-basis: 45%;
+    margin: 2%;
 
 }
-
-.house-keeping {
-    /*background-image: url('../images/House\ Keeping.jpg');*/
-    background-repeat: no-repeat;
-    background-color: none;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-}
-.gardening {
-   /* background-image: url('../images/gardening.jpg');*/
-    background-repeat: no-repeat;
-    background-color: none;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-}
-
-/*.baby-sitting {
-    width: 100%;
-}*/
-.baby-sitting {
-   /*background-image: url('../images/baby\ sitting.jpg');*/
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-}
-.laundry {
-    /*background-image: url('../images/Laundry.jpg');*/
-    background-repeat: no-repeat;
-    background-color: none;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-}
-
 
 /*enquiry form*/
 
 .enquiry-form {
     background-image: url('../images/office-picture.jpg');
-   background-size: cover;
+    background-size: cover;
     background-position: center;
     height: 900px;
     overflow: hidden;
+    transition: none;
 }
 .enquiry {
     margin: 150px 10% 0 0;
     color: black;
     max-width: 700px;
     position: absolute;
-    padding: 25px;
+    padding: 20px;
     left: 10%;
     background-color: rgba(125, 113, 113, 0.6);
     padding-left: 30px;
@@ -349,7 +247,6 @@ margin: 0 auto;
     align-items: left;
     box-shadow: 0 0 18px #0000002c;
     transition: .3s ease box-shadow;
-
 }
 #contact .contact-list h3 {
     font-size: 1.5rem;
@@ -373,7 +270,7 @@ margin: 0 auto;
     background-color: #eed8d82c; 
 }
 
-#footer .social-media-links {
+#footer .social-media-links a {
 min-height: 200px;
 flex-direction: column;
 padding-top: 50px;
@@ -421,4 +318,26 @@ padding-bottom: 10px;
     letter-spacing: 2px;
 }*/
 
+/*media query for tablet*/
 
+@media only screen and (min-height:768px){
+.services-details .service-list-item {
+    flex-basis: 50%;
+    margin: 1.5%;
+
+}
+.service-list-item .service-info {
+    flex-direction: row;
+}
+
+}
+
+/*media query for desktop*/
+/*@media only screen and (min-width:1200px){
+    .services-details .service-list-item {
+        flex-basis: 40%;
+        margin: 1.5%;
+        flex-direction: row;
+    }
+}*/
+    
