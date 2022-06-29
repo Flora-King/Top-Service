@@ -297,6 +297,7 @@ button:hover {
     text-align: center;
 }
 
+
 /*.services-details {
     display: flex;
 }*/
@@ -353,36 +354,122 @@ button:hover {
 }
 
 /* Contact us*/
-
 .contact-container {
+    align-items: center;
+    justify-content: center;
     display: flex;
+}
+
+.contact h2 {
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    color: #009688;
+    text-transform: uppercase;
+
+}
+.left-details {
+    width: 350px;
+    text-align:center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    justify-content: center;
+    align-items:center;
+    box-shadow: 0 0 18px #0201012c;
+    transition: .3s ease box-shadow;
+}
+.left-details h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 60;
+    color: #009688;
+    font-size: 30px;
+}
+.right-details h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 60;
+    color: #009688;
+    font-size: 30px;
+}
+.middle-details h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 60;
+    color: #009688;
+    font-size: 30px;
+}
+.left-details p {
     text-align: center;
     justify-items: center;
+    margin-bottom: 10px;
+    font-weight: 10;
+    color: black;
+    font-size: 20px;
 }
-#contact {
+.right-details p {
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 10px;
+    font-weight: 10;
+    color: black;
+    font-size: 20px;
+}
+.middle-details p {
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 10px;
+    font-weight: 10;
+    color: black;
+    font-size: 20px;
+}
+.right-details {
+    width: 350px;
+    text-align:center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    justify-content: center;
+    align-items:center;
+    box-shadow: 0 0 18px #0201012c;
+    transition: .3s ease box-shadow;
+}
+.middle-details {
+    width: 350px;
+    text-align:center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    justify-content: center;
+    align-items:center;
+    box-shadow: 0 0 18px #0201012c;
+    transition: .3s ease box-shadow;
+}
+
+.middle-details:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+.right-details:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+.left-details:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+/*.contact-items-container {
 
     width: 100%;
-    padding: 70px 0;
+    margin: 0 auto;
+    float: left;
+
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
     
-}
+}*/
     
-.contact-items {
-        width: 33%;
-        align-items: center;
-    }
-    
-.contact-list-details {
-        width: 100%;
-        padding: 20px;
-        text-align:center;
-        border-radius: 10px;
-        padding: 30px;
-        margin: 30px;
-        justify-content: center;
-        align-items:center;
-        box-shadow: 0 0 18px #0201012c;
-        transition: .3s ease box-shadow;
-    }
+
+
 .contact-list-details h3 {
         font-size: 1.5rem;
         font-weight: 300;
