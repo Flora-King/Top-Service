@@ -11,6 +11,9 @@ html {
 
     font-size: 20px;
     font-family: 'Joan',  sans-serif;
+    scroll-behavior: smooth;
+    /*background-color: #eaeddd;
+    opacity: 0.95;*/
 }
 
 a {
@@ -43,7 +46,6 @@ nav {
 }
 .logo h1 {
     color: #fff;
-    text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 30px;
     text-decoration: none;
@@ -170,7 +172,7 @@ p {
    background: url('../images/pexels-artem-beliaikin-3151667.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     padding-bottom: 20px;
@@ -182,9 +184,9 @@ p {
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
-    margin-top: 400px;
-    background-color: rgba(50, 171, 159, .9);
-    width: fit-content;
+    margin-top: 300px;
+   background-color: rgba(50, 171, 159, .8);
+    width: 900px;
     display: flex;
     line-height: 40px;
 
@@ -234,7 +236,7 @@ button:hover {
 }
 
 .left-container {
-    /*border: 3px solid black;*/
+   /* background-image: url('../images/pexels-artem-beliaikin-3151667.jpg');*/
     display: flex;
     align-items: left;
     text-align: left;
@@ -246,14 +248,21 @@ button:hover {
     padding-left: 60px;
     padding-left: 60px;
     max-width: auto;
+    z-index: 1;
+}
+.left-container {
+   /* background-image: url('../images/pexels-artem-beliaikin-3151667.jpg');*/
+    width: 100%;
+    height: fit-content;
+    z-index: -1;
 }
 .left-container .service-list-item {
     width: 50%;
     float: left;
-    /*flex-direction: column;*/
+
 }
 .right-container {
-    /*border: 3px solid black;*/
+ 
     display: flex;
     align-items: left;
     text-align: left;
@@ -269,7 +278,7 @@ button:hover {
 .right-container .service-list-item {
     width: auto;
     float: left;
-   /* flex-direction: column;*/
+
 }
 #services {
     width: 100%;
@@ -297,10 +306,6 @@ button:hover {
     text-align: center;
 }
 
-
-/*.services-details {
-    display: flex;
-}*/
 .left-container {
     flex-basis: 50%;
 }
@@ -354,10 +359,14 @@ button:hover {
 }
 
 /* Contact us*/
-.contact-container {
-    align-items: center;
-    justify-content: center;
+#contact .contact {
+    flex-direction: column;
+}
+
+#contact .contact-items {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact h2 {
@@ -456,17 +465,16 @@ button:hover {
 .left-details:hover {
     box-shadow: 0px 0px 5px 0 #0000002c;
 }
-/*.contact-items-container {
+.contact-items-container {
 
     width: 100%;
     margin: 0 auto;
     float: left;
-
     text-align: center;
     justify-content: space-around;
     align-items: center;
     
-}*/
+}
     
 
 
@@ -489,35 +497,38 @@ button:hover {
 /* footer*/
 
 
-#footer {
-    background-color: #5c53532c;
+.footer-links-container {
+    background-color: #3424242c;
     text-align: center; 
     width: 100%;
     position: absolute;
     color: black;
-    display: flex;
-    justify-content: center;
-    height: 100px;   
-    padding-top: 20px;
+    display: block;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
-
-/*.social-media-links a {
-min-height: 200px;
-flex-direction: column;
-
-}*/
 
 .social-media-links i {
     color: black;
-
+    font-size: 30px;
 
 }
-#footer .social-media-links {
+.social-media-links a:hover {
+    box-shadow: 0px 0px 10px 0 #5804042c;
+    width: .5px;
+    height: .5px;
+    border-radius: 50%;
+    align-items: center;
+}
+.social-media-links a {
     display: inline-block;
     font-size: 20px;
     font-weight: bold;
     justify-content: space-between;
     text-align: center;
+    padding: 20px 30px 20px 30px;
+
 }
 .footer-links p {
     text-align: center;

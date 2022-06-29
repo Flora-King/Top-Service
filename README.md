@@ -1,7 +1,7 @@
 # name of project/portfolio
 
 ## Website Features
-*** Navigation**
+* ** Navigation**
 
 ***Header**
 
