@@ -19,20 +19,14 @@ a {
 .active {
     background-color: rgba(167, 242, 186, 0.6);
 }
-.container {
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
+
 
 p {
    color: black; 
    text-align: left;
    font-size: 1.1rem;
    line-height: 1.3rem;
-   font-weight: 200px;
+   font-weight: 200;
    letter-spacing: 0.02rem;
 }
 /* nav and logo*/
@@ -109,7 +103,7 @@ h4 {
     font-size: 20px;
     margin-top: 2px;
     line-height: 2rem;
-    font-weight: 200px;
+    font-weight: 200;
     letter-spacing: 0.05rem;
     margin-bottom: 8px;
 
@@ -119,19 +113,19 @@ p {
     font-size: 20px;
     margin-top: 2px;
     line-height: 2rem;
-    font-weight: 200px;
+    font-weight: 200;
     letter-spacing: 0.05rem;
     margin-bottom: 8px;
 
 }
 /* media links for burger menu*/
 
-@media screen  and (max-width:1024px) {
+/*@media screen  and (max-width:1024px) {
     .navigation-links {
         width: 60%;
     }
     
-}
+}*/
 
 @media screen and (max-width:768px) {
     body {
@@ -167,102 +161,146 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }*/
-#services .services-intro {
-    flex-basis: 100%;
-    margin: 2.5%;
 
-    justify-items: center;
+/*services*/
+#services {
+    width: 100%;
+    padding: 70px 0;
+}
+.services .services-intro {
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+.services-intro h1 {
+    color: #009688;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;   
+    text-transform: uppercase; 
+}
+.services-intro p {
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
 
-#services .services-details .service-list-item {
+.services-details {
+    width: auto;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+/*.services-details {
+    display: flex;
+}
+.service-list-item {
+    flex-basis: 50%;
+}*/
+.services-details .service-list-item {
+    margin: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    padding: 10px;
+    line-height: 10px;
+    position: relative;
+
+}
+.service-list-item h3 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #009688;
+    font-size: 30px;
+}
+.service-list-item {
+    width: 50%;
+    float: left;
+    line-height: 10px;
+    clear: both;
+    margin-bottom: 20px;
+}
+/*.services-details div {
+
+    width: 50%;
+    clear: both;
+    flex-direction: row;
+    height: 500px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+.service-list-item .right-side {
+    width: 60%;
+    float: left;
+    line-height: 10px;
+    clear: both;
+    margin-bottom: 20px;
+}
+.service-list-item .left-side {
+    width: 60%;
+    float: right;
+    line-height: 10px;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+/*#services .services-details .service-list-item {
     flex-basis: 45%;
     margin: 2%;
 
-}
-
-/*enquiry form*/
-
-.enquiry-form {
-    background-image: url('../images/office-picture.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    overflow: hidden;
-    transition: none;
-}
-.enquiry {
-    margin: 150px 10% 0 0;
-    color: black;
-    max-width: 700px;
-    position: absolute;
-    padding: 20px;
-    left: 10%;
-    background-color: rgba(125, 113, 113, 0.6);
-    padding-left: 30px;
-    position: relative;
-    margin-bottom: 300px;
-    margin-top: 40px;
-}
-
-.text-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #fff;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    resize: vertical;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border-radius: 2px;
-   
-}
-.enquiry h2, p {
-    margin-top: 0 auto;
-    margin-bottom: 15px;
-    text-align: left;
-} 
+}*/
 
 /* Contact us*/
 
-#contact .contact {
+#contact {
 
-max-width: 1200px;
-margin: 0 auto;
+    width: 100%;
+    padding: 70px 0;
+    
+}
+    
+.contact-items {
+        width: 33%;
+        align-items: center;
+    }
+    
+.contact-list-details {
+        width: 100%;
+        padding: 20px;
+        text-align:center;
+        border-radius: 10px;
+        padding: 30px;
+        margin: 30px;
+        justify-content: center;
+        align-items:center;
+        box-shadow: 0 0 18px #0201012c;
+        transition: .3s ease box-shadow;
+    }
+.contact-list-details h3 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-bottom: 5px;
+    }
+    
+.contact-list-details h4 {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 2rem;
+        margin-bottom: 5px;
+    }
+.contact-list-details:hover {
+        box-shadow: 0px 0px 5px 0 #0000002c;
+    }
 
-}
-
-#contact .contact-items {
-    width: 400px;
-    align-items: flex-start;
-}
-
-#contact .contact-list {
-    width: 80%;
-    padding: 20px;
-    text-align:center;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 30px;
-    justify-content: center;
-    align-items: left;
-    box-shadow: 0 0 18px #0000002c;
-    transition: .3s ease box-shadow;
-}
-#contact .contact-list h3 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 5px;
-}
-
-#contact .contact-list h4 {
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 2rem;
-    margin-bottom: 5px;
-}
-#contact .contact-list:hover {
-    box-shadow: 0px 0px 5px 0 #0000002c;
-}
 /* footer*/
 
 
@@ -318,9 +356,55 @@ padding-bottom: 10px;
     letter-spacing: 2px;
 }*/
 
+
+/*enquiry form*/
+
+.enquiry-form {
+    background-image: url('../images/office-picture.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    overflow: hidden;
+    transition: none;
+
+}
+.enquiry {
+    margin: 150px 10% 0 0;
+    color: black;
+    max-width: 700px;
+    position: absolute;
+    padding: 20px;
+    left: 10%;
+    background-color: rgba(125, 113, 113, 0.6);
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 300px;
+    margin-top: 40px;
+}
+
+.text-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border-radius: 2px;
+   
+}
+.enquiry h2, p {
+    margin-top: 0 auto;
+    margin-bottom: 15px;
+    text-align: left;
+} 
+
+
+
 /*media query for tablet*/
 
-@media only screen and (min-height:768px){
+/*@media only screen and (min-height:768px){
 .services-details .service-list-item {
     flex-basis: 50%;
     margin: 1.5%;
@@ -330,7 +414,7 @@ padding-bottom: 10px;
     flex-direction: row;
 }
 
-}
+}*/
 
 /*media query for desktop*/
 /*@media only screen and (min-width:1200px){
