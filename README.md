@@ -91,6 +91,7 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 * The CSS style code also remains without errors after a few adjustments carried out following the validation reports generated prior to this one
 
 <img width="1559" alt="W3_CSS_Validator" src="https://user-images.githubusercontent.com/106548101/176719359-ae79c542-9df9-4b80-9efe-1c0ccd6a4ddd.png">
+
 ### Bugs and Errors
 
 #### Solved
