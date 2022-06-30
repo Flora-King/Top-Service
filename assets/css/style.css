@@ -73,14 +73,13 @@ nav {
     letter-spacing: 5px;
     font-size: 30px;
     text-decoration: none;
-
-
 }
 
 .navigation-links {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 50%;
+    margin-left: 50px;
 
 }
 
@@ -116,49 +115,6 @@ nav {
     cursor: pointer;
 }
 
-/* burger menu end*/
-
-/* media links for burger menu*/
-
-/*@media screen  and (max-width:1024px) {
-    .navigation-links {
-        width: 60%;
-    }
-    
-}*/
-
-@media screen and (max-width:768px) {
-    body {
-        overflow: hidden;
-    }
-
-    .navigation-links {
-        position: absolute;
-        right: 0px;
-        height: 100vh;
-        top: 10vh;
-        background-color: rgb(74, 80, 71);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 35%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-    }
-
-    .navigation-links li {
-        opacity: 0;
-    }
-
-    .burger-menu {
-        display: block;
-    }
-
-    .nav-active {
-        transform: translateX(0%);
-    }
-}
-
 /* hero image section*/
 
 .hero-container {
@@ -179,7 +135,6 @@ nav {
     overflow: hidden;
     padding-bottom: 20px;
     transition: 0s;
-
 }
 
 .hero-statement h1 {
@@ -192,7 +147,6 @@ nav {
     width: 900px;
     display: flex;
     line-height: 40px;
-
 }
 
 .hero-statement .cta {
@@ -225,9 +179,9 @@ button {
     text-transform: uppercase;
     letter-spacing: .02rem;
     margin-top: auto;
+    margin-bottom: auto;
     transition: .5s;
     transition-property: background-color, color;
-
 }
 
 button:hover {
@@ -251,6 +205,7 @@ button:hover {
 .services .services-intro {
     text-align: center;
     padding-bottom: 70px;
+    
 }
 
 .services-intro h1 {
@@ -281,12 +236,9 @@ button:hover {
     margin-bottom: 10px;
     padding-left: 80px;
     padding-right: 20px;
-
-
 }
 
 .laundry-container {
-
     display: flex;
     align-items: center;
     text-align: left;
@@ -301,7 +253,6 @@ button:hover {
 }
 
 .rubish-container {
-
     display: flex;
     align-items: center;
     text-align: left;
@@ -568,14 +519,12 @@ button:hover {
 }
 
 .contact-items-container {
-
     width: 100%;
     margin: 0 auto;
     float: left;
     text-align: center;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .contact-list-details h3 {
@@ -595,7 +544,7 @@ button:hover {
     box-shadow: 0px 0px 5px 0 #0000002c;
 }
 
-/* footer*/
+/* Footer*/
 
 
 .footer-links-container {
@@ -614,7 +563,6 @@ button:hover {
 .social-media-links i {
     color: black;
     font-size: 30px;
-
 }
 
 .social-media-links a:hover {
@@ -632,14 +580,12 @@ button:hover {
     justify-content: space-between;
     text-align: center;
     padding: 15px 30px 15px 30px;
-
 }
 
 .footer-links p {
     text-align: center;
     letter-spacing: 10px;
 }
-
 
 /*enquiry form*/
 
@@ -650,7 +596,6 @@ button:hover {
     height: 100vh;
     overflow: hidden;
     transition: 0s;
-
 }
 
 .enquiry {
@@ -727,6 +672,50 @@ p {
 }*/
 
 /*media queries */
+
+/* burger menu end*/
+
+/* media links for burger menu*/
+
+/*@media screen  and (max-width:1024px) {
+    .navigation-links {
+        width: 60%;
+    }
+    
+}*/
+
+@media screen and (max-width:768px) {
+    body {
+        overflow: hidden;
+    }
+
+    .navigation-links {
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top: 10vh;
+        background-color: rgb(74, 80, 71);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 35%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .navigation-links li {
+        opacity: 0;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .nav-active {
+        transform: translateX(0%);
+    }
+}
+
 /*@media only screen and (min-width:1280px){
     .navigation-links {
 font-size: 60%;
