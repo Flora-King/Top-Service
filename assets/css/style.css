@@ -1,4 +1,4 @@
-/* common style*/
+/* common style code start*/
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 
 * {
@@ -12,8 +12,8 @@ html {
     font-size: 20px;
     font-family: 'Joan',  sans-serif;
     scroll-behavior: smooth;
-    /*background-color: #eaeddd;
-    opacity: 0.95;*/
+    background-color: #eaeddd;
+    opacity: 0.95;
     width: 100%;
     z-index: -1;
 }
@@ -26,16 +26,29 @@ a {
     background-color: rgba(255, 165, 0, .8);
 }
 
+h2 {
+    color: rgb(2, 2, 2);
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: .01rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 p {
-   color: whitesmoke; 
-   text-align: left;
-   font-size: 1.1rem;
-   line-height: 1.3rem;
-   font-weight: 200;
-   letter-spacing: 0.02rem;
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    margin-top: 2px;
+    line-height: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.05rem;
+    margin-bottom: 8px;
+
 }
-/* nav and logo*/
+/* common style code start*/
+
+
+/* nav and logo start*/
 
 nav {
     display: flex;
@@ -43,7 +56,6 @@ nav {
     align-items: center;
     min-height: 8vh;
     font-family: 'Joan',  sans-serif;
-    /*background-color: rgba(76, 84, 71, 0.8);*/
     background-color: black;
     z-index: 1;
 }
@@ -82,7 +94,10 @@ nav {
 .navigation-links a:hover {
     border-bottom: 2px solid orange;
 }
-/* burger menu*/
+
+/* nav and logo end*/
+
+/* burger menu start*/
 
 .burger-menu div {
     width: 25px;
@@ -94,46 +109,8 @@ nav {
     display: none;
     cursor: pointer;
 }
+/* burger menu end*/
 
-h2 {
-    color: rgb(2, 2, 2);
-    font-weight: 500;
-    font-size: 1.8rem;
-    letter-spacing: .01rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-h3 {
-    color: rgb(2, 2, 2);
-    font-weight: 300;
-    font-size: .65rem;
-    letter-spacing: .01rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-
-h4 {
-    color: rgb(2, 2, 2);
-    font-size: 20px;
-    margin-top: 2px;
-    line-height: 2rem;
-    font-weight: 200;
-    letter-spacing: 0.05rem;
-    margin-bottom: 8px;
-
-}
-p {
-    color: rgb(2, 2, 2);
-    font-size: 20px;
-    margin-top: 2px;
-    line-height: 2rem;
-    font-weight: 200;
-    letter-spacing: 0.05rem;
-    margin-bottom: 8px;
-
-}
 /* media links for burger menu*/
 
 /*@media screen  and (max-width:1024px) {
@@ -231,7 +208,7 @@ button {
     border: 2px solid  orange;
     text-transform: uppercase;
     letter-spacing: .02rem;
-    margin-top: 0 auto;
+    margin-top: auto;
     transition: .5s;
     transition-property: background-color, color;
 
@@ -274,9 +251,9 @@ button:hover {
 }
 
 .gardening-container {
-   /* background-image: url('../images/pexels-artem-beliaikin-3151667.jpg');*/
+
     display: flex;
-    align-items: left;
+    align-items: center;
     text-align: left;
     justify-content: space-between;
     margin-top: 30px;
@@ -285,13 +262,13 @@ button:hover {
     margin-bottom: 10px;
     padding-left: 80px;
     padding-right: 20px;
-    max-width: auto;
+
 
 }
 .laundry-container {
  
     display: flex;
-    align-items: left;
+    align-items: center;
     text-align: left;
     justify-content: space-between;
     margin-top: 30px;
@@ -300,12 +277,12 @@ button:hover {
     margin-bottom: 10px;
     padding-left: 80px;
     padding-right: 20px;
-    max-width: auto;
+
 }
 .rubish-container {
-    /* background-image: url('../images/pexels-artem-beliaikin-3151667.jpg');*/
+ 
      display: flex;
-     align-items: left;
+     align-items: center;
      text-align: left;
      justify-content: space-between;
      margin-top: 30px;
@@ -314,14 +291,14 @@ button:hover {
      margin-bottom: 10px;
      padding-left: 30px;
      padding-right: 0;
-     max-width: auto;
+
  }
 
 
 .house-container {
  
     display: flex;
-    align-items: left;
+    align-items:center;
     text-align: left;
     justify-content: space-between;
     margin-top: 30px;
@@ -330,19 +307,7 @@ button:hover {
     margin-bottom: 10px;
     padding-left: 40px;
     padding-right: 0;
-    max-width: auto;
 }
-/*.left-container {
-   /* background-image: url('../images/pexels-artem-beliaikin-3151667.jpg');*/
-    /*width: 100%;
-    height: fit-content;
-
-}
-.left-container .service-list-item {
-    width: 50%;
-    float: left;
-
-}*/
 
 
 .services-details .house-list-item h3 {
@@ -574,8 +539,6 @@ button:hover {
     
 }
     
-
-
 .contact-list-details h3 {
         font-size: 1.5rem;
         font-weight: 300;
@@ -632,15 +595,6 @@ button:hover {
     text-align: center;
     letter-spacing: 10px;
 }
-/*
-#footer .footer-links {
-    min-height: 200px;
-    flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 10px;
-
-}
-
 
 
 /*enquiry form*/
@@ -680,7 +634,7 @@ button:hover {
    
 }
 .enquiry h2, p {
-    margin-top: 0 auto;
+    margin-top: auto;
     margin-bottom: 15px;
     text-align: left;
 } 
@@ -698,7 +652,7 @@ button:hover {
    }
   .hero-container {
     float: left;
-    margin-left: 10px auto;
+    margin-left: auto;
     width: 20%;
     text-align: center;
     align-items: center;
