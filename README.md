@@ -27,7 +27,7 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 
 ! [Home Page]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/Home_Page.png)
 
-### Services section
+### Services section 
 
 * In this section are the list of services provided by TOP Service
 * Each service header has an easy to intepret icon beside it plus the tasks that are part of that service listed below
