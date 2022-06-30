@@ -14,7 +14,7 @@ The live website can be found here [Top_service website]: https://flora-king.git
 * The navigation bar houses links to the Home page; Enquiry Form page; Services section; and Contact Us section.
 * The Logo [TOP service] allows the user to easily navigate back to the top of the page as well as return to the Home page if in the Enquiry Form page.
 
-! [Navigation] url('../images/Navigation_Bar.jpg')
+! [Navigation bar] (/workspace/Top-Service/assets/images/Navigation Bar.png)
 
 
 ### Home Page
