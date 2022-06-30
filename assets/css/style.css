@@ -247,51 +247,6 @@ button:hover {
     display: flex;
 }
 
-.left-container {
-   /* background-image: url('../images/pexels-artem-beliaikin-3151667.jpg');*/
-    display: flex;
-    align-items: left;
-    text-align: left;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 10px;
-    padding-left: 60px;
-    padding-left: 60px;
-    max-width: auto;
-    z-index: 1;
-}
-.left-container {
-   /* background-image: url('../images/pexels-artem-beliaikin-3151667.jpg');*/
-    width: 100%;
-    height: fit-content;
-    z-index: -1;
-}
-.left-container .service-list-item {
-    width: 50%;
-    float: left;
-
-}
-.right-container {
- 
-    display: flex;
-    align-items: left;
-    text-align: left;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 10px;
-    padding-left: 60px;
-    padding-left: 60px;
-    max-width: auto;
-}
-.right-container .service-list-item {
-    width: auto;
-    float: left;
-
-}
 #services {
     width: 100%;
     padding: 70px 0;
@@ -318,33 +273,107 @@ button:hover {
     text-align: center;
 }
 
-.left-container {
-    flex-basis: 50%;
-}
-.services-details .service-list-item {
-    margin: 10px;
+.gardening-container {
+   /* background-image: url('../images/pexels-artem-beliaikin-3151667.jpg');*/
+    display: flex;
+    align-items: left;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 0;
     margin-bottom: 10px;
-    width: 800px;
-    padding: 10px;
-    line-height: 10px;
-
+    padding-left: 80px;
+    padding-right: 20px;
+    max-width: auto;
 
 }
-.right-container .service-list-item h3 {
+.laundry-container {
+ 
+    display: flex;
+    align-items: left;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 20px;
+    max-width: auto;
+}
+.rubish-container {
+    /* background-image: url('../images/pexels-artem-beliaikin-3151667.jpg');*/
+     display: flex;
+     align-items: left;
+     text-align: left;
+     justify-content: space-between;
+     margin-top: 30px;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-bottom: 10px;
+     padding-left: 30px;
+     padding-right: 0;
+     max-width: auto;
+ }
+
+
+.house-container {
+ 
+    display: flex;
+    align-items: left;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 0;
+    max-width: auto;
+}
+/*.left-container {
+   /* background-image: url('../images/pexels-artem-beliaikin-3151667.jpg');*/
+    /*width: 100%;
+    height: fit-content;
+
+}
+.left-container .service-list-item {
+    width: 50%;
+    float: left;
+
+}*/
+
+
+.services-details .house-list-item h3 {
     text-align: center;
     margin-bottom: 10px;
     font-weight: 100;
     color: #009688;
     font-size: 30px;
 }
-.left-container .service-list-item h3 {
+.services-details .gardening-list-item h3 {
     text-align: center;
     margin-bottom: 10px;
     font-weight: 100;
     color: #009688;
     font-size: 30px;
 }
-.left-container .service-list-item p {
+.services-details .laundry-list-item h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #009688;
+    font-size: 30px;
+}
+.services-details .rubbish-list-item h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #009688;
+    font-size: 30px;
+}
+.services-details .house-list-item p {
     text-align: left;
     justify-items: center;
     margin-bottom: 10px;
@@ -354,22 +383,79 @@ button:hover {
     width: auto;
     margin: 0 auto;
 }
-.right-container .service-list-item p {
+.services-details .gardening-list-item p {
     text-align: left;
     justify-items: center;
     margin-bottom: 10px;
     font-weight: 10;
     color: black;
     font-size: 20px;
+    width: auto;
+    margin: 0 auto;
 }
-.service-list-item {
+.services-details .laundry-list-item p {
+    text-align: left;
+    justify-items: center;
+    margin-bottom: 10px;
+    font-weight: 10;
+    color: black;
+    font-size: 20px;
+    width: auto;
+    margin: 0 auto;
+
+}
+.services-details .rubbish-list-item p {
+    text-align: left;
+    justify-items: center;
+    margin-bottom: 10px;
+    font-weight: 10;
+    color: black;
+    font-size: 20px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.rubbish-list-item .garden-list-item .laundry-list-item .house-list-item {
     width: 100%;
     float: left;
     line-height: 10px;
     clear: both;
     margin-bottom: 20px;
+
+    text-align: left;
 }
 
+.services-details .rubbish-list-item {
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    line-height: 10px;
+
+}
+
+.services-details .laundry-list-item {
+    margin: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    padding: 10px;
+    line-height: 10px;
+}
+.services-details .gardening-list-item {
+    margin: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    padding: 10px;
+    line-height: 10px;
+
+}
+.services-details .house-list-item {
+    margin: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    padding: 10px;
+    line-height: 10px;
+
+}
 /* Contact us*/
 #contact .contact {
     flex-direction: column;
