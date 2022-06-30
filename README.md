@@ -8,6 +8,7 @@ Users of this website are able to find out which services are provided by TOP Se
 The live website can be found here [Top_service website]:https://flora-king.github.io/Top-Service/
 ## Features
 ! [Multiple devices mockup Generator]: (https://github.com/Flora-King/Top-Service/blob/main/assets/images/Website_mockup.png)
+![Website_mockup](https://user-images.githubusercontent.com/106548101/176711522-a9c2dfec-753e-4276-94a9-bb8fb2d8a0a2.png)
 
 ### Navigation
 
