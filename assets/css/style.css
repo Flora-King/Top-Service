@@ -12,7 +12,7 @@ html {
     font-size: 20px;
     font-family: 'Joan', sans-serif;
     scroll-behavior: smooth;
-    background-color: #eaeddd;
+   /* background-color: #eaeddd;*/
     opacity: 0.95;
     width: 100%;
     z-index: -1;
@@ -55,7 +55,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 10vh;
     font-family: 'Joan', sans-serif;
     background-color: black;
     z-index: 1;
@@ -120,9 +120,9 @@ nav {
 .hero-container {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
     text-align: center;
-    padding-left: 200px;
+    padding-left: 48px;
     position: absolute;
 }
 
@@ -632,58 +632,11 @@ p {
 }
 
 
-/* For medium screen sizes from 950px wide and down*/
-@media screen and (max-width: 950px) {
-    body {
-        scroll-behavior: smooth;
-    }
-
-    .navigation-links {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        line-height: 25px;
-    }
-
-    .hero-container {
-        float: left;
-        margin-left: auto;
-        width: 20%;
-        text-align: center;
-        align-items: center;
-        font-size: x-small;
-    }
-
-    #services {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .cta {
-        display: none;
-    }
-}
 
 
-/*.service-list-item .service-info {
-    flex-direction: row;
-}
+/*media queries start*/
 
-}*/
-
-/*media queries */
-
-/* burger menu end*/
-
-/* media links for burger menu*/
-
-/*@media screen  and (max-width:1024px) {
-    .navigation-links {
-        width: 60%;
-    }
-    
-}*/
-
+/* Small devices (768px and down) */
 @media screen and (max-width:768px) {
     body {
         overflow: hidden;
@@ -716,6 +669,13 @@ p {
     }
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {
+
+    }
+  }
+
 /*@media only screen and (min-width:1280px){
     .navigation-links {
 font-size: 60%;
@@ -732,3 +692,78 @@ font-size: 60%;
 
 }
 }*/
+
+
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {
+
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {
+
+    }
+    
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {
+
+    }
+  } 
+  
+/* For medium screen sizes from 950px wide and down/*
+@media screen and (max-width: 950px) {
+    body {
+        scroll-behavior: smooth;
+    }
+
+    .navigation-links {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        line-height: 25px;
+    }
+
+    .hero-container {
+        float: left;
+        margin-left: auto;
+        width: 20%;
+        text-align: center;
+        align-items: center;
+        font-size: x-small;
+    }
+
+    #services {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cta {
+        display: none;
+    }
+}*/
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    #hero .hero-container {
+        width: 100%;
+        align-items: center;
+       display: flex;
+       padding-right: 0%;
+    }
+    #hero img {
+        width: 100%;
+    }
+    .services-intro p {
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+    }
+
+  }
