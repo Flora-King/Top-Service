@@ -6,6 +6,7 @@ The Top Service website is a simple and very effective webiste aimed at customer
 Users of this website are able to find out which services are provided by TOP Service; use the contact details provided to contact TOP service directly; and submit an enquiry using the Enquiry form.
 
 The live website can be found here [Top_service website]:https://flora-king.github.io/Top-Service/
+
 ## Features
 
 ![Website_mockup](https://user-images.githubusercontent.com/106548101/176711522-a9c2dfec-753e-4276-94a9-bb8fb2d8a0a2.png)
@@ -16,7 +17,7 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 * The navigation bar houses links to the Home page; Enquiry Form page; Services section; and Contact Us section.
 * The Logo [TOP service] allows the user to easily navigate back to the top of the page as well as return to the Home page if in the Enquiry Form page.
 
-! [Navigation bar]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/Navigation-Bar.png)
+![Navigation-Bar](https://user-images.githubusercontent.com/106548101/176719677-c2ffbe02-1f98-4eda-88a4-8c32b07357c4.png)
 
 
 ### Home Page
@@ -25,14 +26,14 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 * Users can easily and smoothly scroll up and down to different sections on the Home page [i.e. Services, Contact Us, and Footer] or the can use the navigation links  links set out in the  navigation bar.
 * I have also included two buttons 'FIND OUT MORE' and 'CONTACT US' for extra ease of use.
 
-! [Home Page]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/Home_Page.png)
+![Home_Page](https://user-images.githubusercontent.com/106548101/176719528-98a0ee0d-09fd-4e4b-91d6-0fc511f4a048.png)
 
 ### Services section 
 
 * In this section are the list of services provided by TOP Service
 * Each service header has an easy to intepret icon beside it plus the tasks that are part of that service listed below
 
-! [Services Section]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/Services_Section.png)
+![Services_Section](https://user-images.githubusercontent.com/106548101/176719673-60795dd0-837f-41ad-9f86-4ecd2aa0f497.png)
 
 ### Contact Us section
 
@@ -40,14 +41,14 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 * I have used contact cards with a shadown underlay and transition to draw the user's attention the various cards
 * Customer can contact TOP service via email, telephone, and Post
 
-! [Contact Us section]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/Contact_Us.png)
+![Contact_Us](https://user-images.githubusercontent.com/106548101/176719669-bfab7894-15d9-4551-a3ae-bcd23e0b314c.png)
 
 ### Footer   
 
 * The footer section includes links to TOP Service’s social media pages encouraging continued interaction.
 * All links open in a new tab. 
 
-! [Footer image]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/Footer.png)
+![Footer](https://user-images.githubusercontent.com/106548101/176719664-0ff976ef-65d7-4ca6-8143-e1b83cbac222.png)
 
 ### Enquiry Page
 
@@ -83,21 +84,32 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 
 ### Validator Testing
 
-! [W3 Schools HTML validation]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/W3_HTML_Validator.png)
+* The HTML code remains without errors after a few adjustments carried out following the validation reports generated prior to this one
 
-! [W3 CSS validation]: (https://github.com/Flora-King/Top-Service/blob/main/assets/images/W3_CSS_Validator.png)
+<img width="1199" alt="W3_HTML_Validator" src="https://user-images.githubusercontent.com/106548101/176719310-510d802d-0947-4528-bd4f-d8e046d5503a.png">
+
+* The CSS style code also remains without errors after a few adjustments carried out following the validation reports generated prior to this one
+
+<img width="1559" alt="W3_CSS_Validator" src="https://user-images.githubusercontent.com/106548101/176719359-ae79c542-9df9-4b80-9efe-1c0ccd6a4ddd.png">
 ### Bugs and Errors
 
-    * **Solved**
+#### Solved
+* I encountered a few errors in HTML and CSS during the build phase. For example, I had created a button inside the anchor tag. After seeing the error from the validation report, i adjusted my code.
 
-    * **Unsolved**
+* I encountered issues while building the services section layout. The service types were displaying as "two columns side-by-side and two rows" structure that I needed. I solved this by created an outer container to house all service types plus a container for each service type
+
+#### Unsolved
+
+* None at the moment
 
 ## Deployment 
 
-The site was deployed to GitHub. The steps to deploy are as follows:
+The site was deployed in GitHub. The steps to deploy are as follows:
 
-From the Github project that I already created, I followed the following steps:
+1 From the Github project that I already created, I followed the following steps:
 The live website can be found here  Top Service
+2 
+3 
 
 
 
