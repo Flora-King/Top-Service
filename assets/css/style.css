@@ -400,9 +400,9 @@ button:hover {
 }
 
 /* Contact us*/
-#contact .contact {
+/*#contact .contact {
     flex-direction: column;
-}
+}*/
 
 #contact .contact-items {
     display: flex;
