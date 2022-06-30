@@ -5,8 +5,9 @@ The Top Service website is a simple and very effective webiste aimed at customer
 
 Users of this website are able to find out which services are provided by TOP Service; use the contact details provided to contact TOP service directly; and submit an enquiry using the Enquiry form.
 
-The live website can be found here [Top_service website]: https://flora-king.github.io/Top-Service/
+The live website can be found here [Top_service website]:https://flora-king.github.io/Top-Service/
 ## Features
+! [Multiple devices mockup Generator]: (https://github.com/Flora-King/Top-Service/blob/main/assets/images/Website_mockup.png)
 
 ### Navigation
 
@@ -14,7 +15,7 @@ The live website can be found here [Top_service website]: https://flora-king.git
 * The navigation bar houses links to the Home page; Enquiry Form page; Services section; and Contact Us section.
 * The Logo [TOP service] allows the user to easily navigate back to the top of the page as well as return to the Home page if in the Enquiry Form page.
 
-! [Navigation bar] (/workspace/Top-Service/assets/images/Navigation Bar.png)
+! [Navigation bar]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/Navigation-Bar.png)
 
 
 ### Home Page
@@ -23,14 +24,14 @@ The live website can be found here [Top_service website]: https://flora-king.git
 * Users can easily and smoothly scroll up and down to different sections on the Home page [i.e. Services, Contact Us, and Footer] or the can use the navigation links  links set out in the  navigation bar.
 * I have also included two buttons 'FIND OUT MORE' and 'CONTACT US' for extra ease of use.
 
-> {home page image}
+! [Home Page]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/Home_Page.png)
 
 ### Services section
 
 * In this section are the list of services provided by TOP Service
 * Each service header has an easy to intepret icon beside it plus the tasks that are part of that service listed below
 
-> {services section image} 
+! [Services Section]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/Services_Section.png)
 
 ### Contact Us section
 
@@ -38,14 +39,14 @@ The live website can be found here [Top_service website]: https://flora-king.git
 * I have used contact cards with a shadown underlay and transition to draw the user's attention the various cards
 * Customer can contact TOP service via email, telephone, and Post
 
-> {contact us section image} 
+! [Contact Us section]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/Contact_Us.png)
 
 ### Footer   
 
 * The footer section includes links to TOP Service’s social media pages encouraging continued interaction.
 * All links open in a new tab. 
 
-> {Footer section image} 
+! [Footer image]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/Footer.png)
 
 ### Enquiry Page
 
@@ -81,6 +82,9 @@ The live website can be found here [Top_service website]: https://flora-king.git
 
 ### Validator Testing
 
+! [W3 Schools HTML validation]:(https://github.com/Flora-King/Top-Service/blob/main/assets/images/W3_HTML_Validator.png)
+
+! [W3 CSS validation]: (https://github.com/Flora-King/Top-Service/blob/main/assets/images/W3_CSS_Validator.png)
 ### Bugs and Errors
 
     * **Solved**
