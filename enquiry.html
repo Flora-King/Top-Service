@@ -39,7 +39,7 @@
 <section>
     <div class="enquiry-form">
         <div>
-        <form class="enquiry" method="POST" action="mailto:info@topservice.com">
+        <form class="enquiry" method="POST" action="mailto:info@topservice.com" onSubmit="alert('Thank you for your enquiry.')">
             <h2>Submit your Enquiry</h2>
             <p>We aim to respond within 24 hours</p>
             <label for="fname">First Name</label>
@@ -50,7 +50,7 @@
             <input type="email" id="email" class="text-input" name="email-address" required>
             <input type="checkbox" id="gardening" name="service-type" value="gardening">
             <label for="gardening">Gardening</label>
-            <input type="checkbox" id="baby-sitting" name="service-type" value="baby-sitting">
+            <input type="checkbox" id="baby-sitting" name="service-type" value="baby-sitting" >
             <label for="baby-sitting">Baby Sitting</label>
             <input type="checkbox" id="laundry" name="service-type" value="laundry">
             <label for="laundry">Laundry Services</label>
@@ -72,9 +72,11 @@
             <br>
             <br>
             <input type="submit" value="Submit">
+
         </form>
 
     </section>
+
 <!-- Enquiry Form end-->
 
 <!-- Footer Section start-->
