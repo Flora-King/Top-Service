@@ -15,6 +15,7 @@ html {
     /*background-color: #eaeddd;
     opacity: 0.95;*/
     width: 100%;
+    z-index: -1;
 }
 
 a {
@@ -22,7 +23,7 @@ a {
 }
 
 .active {
-    background-color: rgba(167, 242, 186, 0.6);
+    background-color: rgba(255, 165, 0, .8);
 }
 
 
@@ -40,22 +41,32 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 10vh;
+    min-height: 8vh;
     font-family: 'Joan',  sans-serif;
     /*background-color: rgba(76, 84, 71, 0.8);*/
     background-color: black;
+    z-index: 1;
+}
+nav {
+    position: fixed;
+    top: 0;
+
+    width: 100%;
 }
 .logo h1 {
     color: #fff;
     letter-spacing: 5px;
     font-size: 30px;
     text-decoration: none;
+
+
 }
 
 .navigation-links {
     display: flex;
     justify-content: space-around;
     width: 40%;
+
 }
 .navigation-links li {
     list-style: none;
@@ -562,13 +573,12 @@ button:hover {
     color: black;
     max-width: 700px;
     position: absolute;
-    padding: 20px;
+    padding: 30px;
     left: 10%;
     background-color: rgba(125, 113, 113, 0.6);
-    padding-left: 30px;
     position: relative;
     margin-bottom: 300px;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .text-input {
