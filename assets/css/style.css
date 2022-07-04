@@ -59,12 +59,12 @@ nav {
     font-family: 'Joan', sans-serif;
     background-color: black;
     z-index: 1;
+    position: relative;
 }
 
 nav {
     position: fixed;
     top: 0;
-
     width: 100%;
 }
 
@@ -80,6 +80,7 @@ nav {
     justify-content: space-around;
     width: 50%;
     margin-left: 50px;
+    
 
 }
 
@@ -130,9 +131,11 @@ nav {
     background: url('../images/pexels-artem-beliaikin-3151667.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 90vh;
     width: 100%;
-    overflow: hidden;
+   /* overflow: hidden;*/
     padding-bottom: 20px;
     transition: 0s;
 }
@@ -190,83 +193,82 @@ button:hover {
 }
 
 /*services*/
-.services-container {
+#services .services-container {
     align-items: center;
     justify-content: center;
     display: flex;
     text-align: center;
 }
 
-#services {
+#services .services-container {
     width: 100%;
-    height: 130vh;
+    height: 30vh;
+    margin-top: 40px;
 }
 
-.services .services-intro {
+.services-container .services-intro {
     text-align: center;
     padding-bottom: 70px;
+    padding-top: 40px;
+    width: fit-content;
     
 }
 
-.services-intro h1 {
+.services-container .services-intro h1 {
     color: #009688;
     font-weight: bold;
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
+    padding-top: 50px;
+
 }
 
-.services-intro p {
-    width: 1500px;
+.services-container .services-intro p {
+    width: 1000px;
     margin: 0 auto;
     font-size: 20px;
     position: relative;
-    display: inline-block;
+    display: block;
     text-align: center;
 }
 
-.gardening-container {
+#services .outer-container {
+    width: 100%;
+    height: 150vh;
+    margin-top: auto;
+}
+.outer-container .gardening-container {
     display: flex;
     align-items: center;
     text-align: left;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 30px;
+    margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 0;
-    margin-bottom: 10px;
     padding-left: 80px;
     padding-right: 20px;
+    float: left;
+
 }
 
-.laundry-container {
+.outer-container .laundry-container {
     display: flex;
     align-items: center;
     text-align: left;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 0;
-    margin-bottom: 10px;
     padding-left: 80px;
     padding-right: 20px;
+    float: left;
 
 }
 
-.rubish-container {
-    display: flex;
-    align-items: center;
-    text-align: left;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 0;
-
-}
-
-.house-container {
+.outer-container  .rubish-container {
     display: flex;
     align-items: center;
     text-align: left;
@@ -277,6 +279,21 @@ button:hover {
     margin-bottom: 10px;
     padding-left: 40px;
     padding-right: 0;
+    float: right;
+}
+
+.outer-container .house-container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 0;
+    float: right;
 }
 
 .services-details .gardening-list-item h3 {
@@ -315,30 +332,18 @@ button:hover {
     clear: both;
 }
 
-.services-details .house-list-item p {
+.outer-container .services-details .house-list-item p {
     text-align: left;
     justify-items: center;
     margin-bottom: 10px;
     font-weight: 10;
     color: black;
     font-size: 20px;
-    width: auto;
-    margin: auto;
+    width: 100%;
+ 
 }
 
-.services-details .gardening-list-item p {
-    text-align: left;
-    justify-items: center;
-    margin-bottom: 10px;
-    font-weight: 10;
-    color: black;
-    font-size: 20px;
-    width: auto;
-    margin: auto;
-
-}
-
-.services-details .laundry-list-item p {
+.outer-container .services-details .gardening-list-item p {
     text-align: left;
     justify-items: center;
     margin-bottom: 10px;
@@ -350,7 +355,19 @@ button:hover {
 
 }
 
-.services-details .rubbish-list-item p {
+.outer-container .services-details .laundry-list-item p {
+    text-align: left;
+    justify-items: center;
+    margin-bottom: 10px;
+    font-weight: 10;
+    color: black;
+    font-size: 20px;
+    width: auto;
+    margin: auto;
+
+}
+
+.outer-container .services-details .rubbish-list-item p {
     text-align: left;
     justify-items: center;
     margin-bottom: 10px;
@@ -366,7 +383,7 @@ button:hover {
     margin-bottom: 10px;
     padding: 10px;
     line-height: 10px;
-    width: 1000px;
+    width: 800px;
     float: left;
     text-align: left;
     left: 30px;
@@ -375,15 +392,16 @@ button:hover {
 .services-details .laundry-list-item {
     margin: 10px;
     margin-bottom: 10px;
-    width: 1000px;
+    width: 800px;
     padding: 10px;
     line-height: 10px;
+    left: 30px;
 }
 
 .services-details .gardening-list-item {
     margin: 10px;
     margin-bottom: 10px;
-    width: 1000px;
+    width: 800px;
     padding: 10px;
     line-height: 10px;
     left: 30px;
@@ -393,10 +411,10 @@ button:hover {
 .services-details .house-list-item {
     margin: 10px;
     margin-bottom: 10px;
-    width: 1000px;
+    width: 800px;
     padding: 10px;
     line-height: 10px;
-
+    left: 30px;
 }
 
 /* Contact us*/
@@ -410,7 +428,7 @@ button:hover {
     align-items: center;
 }
 
-.contact h2 {
+#contact .contact h2 {
     text-align: center;
     justify-content: space-around;
     display: flex;
@@ -419,7 +437,7 @@ button:hover {
 
 }
 
-.left-details {
+#contact .left-details {
     width: 350px;
     text-align: center;
     border-radius: 10px;
