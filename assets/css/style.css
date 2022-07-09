@@ -262,6 +262,7 @@ button:hover {
     width: 50%;
     float: left;
 
+
     }
     
 .services-details .services-list-right {
@@ -278,8 +279,7 @@ button:hover {
         float: right;
         padding-top: 30px;
         width: 50%;
-    
-   
+       
     
         }
 .outer-container .services-details {
@@ -304,8 +304,16 @@ justify-content: space-around;
 }*/
 
 
+.services-list-left h3 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #009688;
+    font-size: 25px;
+    clear: both;
+}
 
-.services-details .services-list-item h3 {
+.services-list-right h3 {
     text-align: left;
     margin-bottom: 10px;
     font-weight: 100;
@@ -315,7 +323,7 @@ justify-content: space-around;
 }
 
 
-.services-details .services-list-item p {
+.services-list-right p {
     text-align: left;
     /*justify-items: center;*/
     margin-bottom: 10px;
@@ -325,7 +333,16 @@ justify-content: space-around;
     width: 100%;
  
 }
-
+.services-list-left p {
+    text-align: left;
+    /*justify-items: center;*/
+    margin-bottom: 10px;
+    font-weight: 10;
+    color: black;
+    font-size: 17px;
+    width: 100%;
+ 
+}
 
 
 /* Contact us*/
