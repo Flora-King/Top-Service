@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    
 }
 
 html {
@@ -12,10 +13,10 @@ html {
     font-size: 20px;
     font-family: 'Joan', sans-serif;
     scroll-behavior: smooth;
-   /* background-color: #eaeddd;*/
+    background-color: #eaeddd;
     opacity: 0.95;
-    width: 100%;
     z-index: -1;
+    width: 100%;
 }
 
 a {
@@ -70,7 +71,7 @@ nav {
 .logo h1 {
     color: #fff;
     letter-spacing: 5px;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -80,7 +81,6 @@ nav {
     width: 50%;
     margin-left: 50px;
     
-
 }
 
 .navigation-links li {
@@ -153,7 +153,7 @@ nav {
 
 .hero-statement .cta {
     display: inline-block;
-    padding: 10px 10px;
+    padding: 5px 5px;
     color: #fff;
     background-color: black;
     border: 1px solid orange;
@@ -163,7 +163,7 @@ nav {
     transition: .7s ease-in;
     transition-property: background-color, color;
     align-items: center;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .hero-statement .cta:hover {
@@ -248,13 +248,14 @@ button:hover {
     justify-content: space-between;
     margin: 0 auto;
     padding: 20px;
+    float: left;
    /* margin-top: 30px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 0;
     padding-left: 80px;
     padding-right: 20px;*/
-    float: left;
+    
 
 }
 
@@ -300,11 +301,11 @@ button:hover {
    /* margin-top: 30px;
     margin-left: 0;
     margin-right: 10px;
-    margin-bottom: 10px;*/
-    padding: 20px;
-   /* padding-left: 0;
+    margin-bottom: 10px;
+    padding-left: 0;
     padding-right: 40px;*/
     float: right;
+    padding: 20px;
 }
 
 .services-details .gardening-list-item h3 {
@@ -667,7 +668,7 @@ p {
 
 
 
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 320px) {
     html {
         font-size: 16px;
     }
@@ -676,6 +677,16 @@ p {
     }
     .services-container {
         padding: 0 10px;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    .hero-statement h1 {
+        flex-direction:column;
+        /*height: 450px;
+        justify-content: center;
+        padding-top: 0;
+        text-align: center;*/
     }
 }
 
@@ -691,15 +702,17 @@ p {
     .services-container {
         padding: 0 15px;
     } 
-    .services-intro p {
-        flex-direction: column-reverse;
+    .services-container .services-intro p {
+        flex-direction:column;
         height: 450px;
         justify-content: center;
         padding-top: 0;
         text-align: center;
     }
+    html {
+        scroll-behavior: smooth;
+    }
 }
-
 
 /* Medium devices (768px and down) */
 @media screen and (max-width:768px) {
@@ -740,6 +753,9 @@ p {
         padding: 0 20px;
     }
     
+    html {
+        scroll-behavior: smooth;
+    }
 }
 
 /* Large devices (1024px and down) */
@@ -753,6 +769,7 @@ p {
         justify-content: space-between;
         width: 100%;
     }
+
     * {
         box-sizing: border-box;
         margin: 0;
@@ -763,6 +780,7 @@ p {
         padding: 0 15px;
     }
   }
+
     /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media only screen and (min-width: 1200px) {
         #hero .hero-container {
@@ -774,7 +792,7 @@ p {
         #hero img {
             width: 100%;
         }
-        .services-intro p {
+        .services-container .services-intro p {
         text-align: center;
         width: 100%;
         margin-top: 0px;
@@ -785,9 +803,9 @@ p {
         
       }
 
-      /*@media only screen and (min-width:1280px){
+/*@media only screen and (min-width:1280px){
     .navigation-links {
-font-size: 60%;
+        font-size: 60%;
     }
     #services {
         margin: 0 0 20vh 0;
@@ -795,15 +813,15 @@ font-size: 60%;
     
 }
 @media only screen and (min-height:768px){
-#services {
-    flex-basis: 50%;
-    margin: 1.5%;
+    #services {
+        flex-basis: 50%;
+        margin: 1.5%;
 
 }
 }*/
   
   
-/* For medium screen sizes from 950px wide and down/*
+/*For medium screen sizes from 950px wide and down/*
 @media screen and (max-width: 950px) {
     body {
         scroll-behavior: smooth;
@@ -833,4 +851,4 @@ font-size: 60%;
     .cta {
         display: none;
     }
-}*/
+}
