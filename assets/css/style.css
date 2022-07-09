@@ -782,25 +782,40 @@ p {
   }
 
     /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1200px) {
+    @media only screen and (max-width: 1200px) {
+        html {
+            font-size: 15px;
+        }
+        
+       
         #hero .hero-container {
             width: 100%;
             align-items: center;
            display: flex;
            padding-right: 0%;
         }
+
         #hero img {
             width: 100%;
         }
+        #services .outer-container {
+            width: 90%;
+            height: 1300px;
+            margin: 0 auto;
+        }
+
         .services-container .services-intro p {
         text-align: center;
         width: 100%;
         margin-top: 0px;
+        padding: 10px 10px;
         }
-        html {
-            font-size: 19px;
+        .services-details {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            padding: 5px 5px;
         }
-        
       }
 
 /*@media only screen and (min-width:1280px){
