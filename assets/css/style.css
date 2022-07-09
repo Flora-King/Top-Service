@@ -195,13 +195,22 @@ button:hover {
 
 /*services section*/
 
-#services .outer-container {
-    width: 100%;
-     height: 90vh;
+#services {
+  
+     height: 120vh;
     /* margin-top: auto;*/
-     margin-left: 0;
-     margin-right: 0;
+    margin: auto;
+    justify-content: center;
+    width: auto;
  }
+
+/*.services-details {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+
+}*/
 #services .services-container {
     align-items: center;
     justify-content: center;
@@ -244,37 +253,41 @@ button:hover {
     margin-bottom: 10px;
 }*/
 
-
-
-
-.services-details .services-list-left {
-    padding: 20px 30px 20px 30px;
-   width: 50%;
+#left-item {
     float: left;
-    margin-bottom: 50px;
-    margin-right: 0;
-    flex-basis: 50%;
-    align-items: left;
-    }
-    
-.services-details .services-list-right { 
-    padding: 20px 30px 20px 30px;
+    align-items: center;
+}
+
+#right-item {
+    float: right;
+    align-items: center;
+}
+
+.services-list-left {
+    padding: 20px 20px 20px 40px;
         float: right;
-        width: 50%;
+        width:45%;
         margin-bottom: 50px;
         margin-left: 0;
         flex-basis: 50%;
-        justify-content: right;
+        margin-left: 10px;
         align-items: right;
+        margin: 0 auto;
+    }
+    
+.services-list-right { 
+    padding: 20px 20px 20px 40px;
+        float: right;
+        width:45%;
+        margin-bottom: 50px;
+        margin-left: 0;
+        flex-basis: 50%;
+        margin-left: 10px;
+        align-items: right;
+        margin: 0 auto;
         }
 
-.outer-container .services-details {
-    display: flex;
-    align-items: center;
-    text-align: left;
-    justify-content: space-between;
 
-}
 
 /*.services-details div {
 width: 50%;
@@ -317,6 +330,7 @@ justify-content: space-around;
     color: black;
     font-size: 17px;
     width: 100%;
+    
  
 }
 .services-list-left p {
