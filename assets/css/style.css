@@ -196,11 +196,11 @@ button:hover {
 /*services section*/
 
 #services .outer-container {
-    /* width: 100%;*/
+    width: 100%;
      height: 90vh;
-    /* margin-top: auto;
+    /* margin-top: auto;*/
      margin-left: 0;
-     margin-right: 0;*/
+     margin-right: 0;
  }
 #services .services-container {
     align-items: center;
@@ -232,7 +232,6 @@ button:hover {
     width: 1000px;
     margin: 0 auto;
     font-size: 20px;
-    
     display: block;
     text-align: center;
 }
@@ -249,39 +248,26 @@ button:hover {
 
 
 .services-details .services-list-left {
-    /*flex: 65%;
-    display: flex;
-    width: 500px;
-    text-align: center;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px 30px 20px 30px;
+   width: 50%;
     float: left;
-    flex-wrap: wrap;*/
-    padding-top: 30px;
-    width: 50%;
-    float: left;
-
-
+    margin-bottom: 50px;
+    margin-right: 0;
+    flex-basis: 50%;
+    align-items: left;
     }
     
-.services-details .services-list-right {
-        /*flex: 65%;
-        flex-wrap: wrap;
-        display: flex;
-        width: 500px;
-        text-align: center;
-        border-radius: 10px;
-        padding: 10px;
-        margin: 10px;*/
-    
-       
+.services-details .services-list-right { 
+    padding: 20px 30px 20px 30px;
         float: right;
-        padding-top: 30px;
         width: 50%;
-       
-    
+        margin-bottom: 50px;
+        margin-left: 0;
+        flex-basis: 50%;
+        justify-content: right;
+        align-items: right;
         }
+
 .outer-container .services-details {
     display: flex;
     align-items: center;
@@ -310,7 +296,7 @@ justify-content: space-around;
     font-weight: 100;
     color: #009688;
     font-size: 25px;
-    clear: both;
+
 }
 
 .services-list-right h3 {
@@ -319,7 +305,7 @@ justify-content: space-around;
     font-weight: 100;
     color: #009688;
     font-size: 25px;
-    clear: both;
+  
 }
 
 
