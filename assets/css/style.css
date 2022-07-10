@@ -787,6 +787,7 @@ p {
  
     #services {
         top: 0;
+        position: relative;
     }
 
    #right-item {
@@ -801,7 +802,7 @@ p {
     
         line-height: 15px;
         justify-content: space-around;
-      
+        margin-left: -150px;
         align-items: flex-start;
     
     }
@@ -809,12 +810,13 @@ p {
         width: auto;
         height: auto;
         padding-top: 550px;
+      
          margin: 0;
          display: flex;
          margin-top: auto;
          flex-direction: column-reverse;     
          text-align: left;
-     
+        margin-left: -150px;
          line-height: 15px;
          justify-content: space-around;
        
@@ -822,17 +824,6 @@ p {
      
      }
 
-
-
-
-
-    /*.services-container {
-        text-align: left;
-        width: 100%;
-        align-items: flex-start;
-        text-align: center;
-        
-    }*/
 
     .contact, .contact-items {
         text-align: center;
@@ -847,13 +838,17 @@ p {
         text-align: center;
     }
     .contact {
-        padding-top: 6150px;
+        padding-top: 4900px;
+        width: auto;
  
     }
-footer {
-    bottom: 0px;
-    position: fixed;
-
+    #footer {
+    
+    bottom: auto;
+    left: auto;
+    height: auto;
+    padding-bottom: 0;
+    padding-top: 5600px;
     }
 }
 
