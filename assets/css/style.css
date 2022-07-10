@@ -102,19 +102,6 @@ nav {
 
 /* nav and logo end*/
 
-/* burger menu start*/
-
-/*.burger-menu div {
-    width: 25px;
-    height: 5px;
-    background-color: rgb(226, 226, 226);
-    margin: 3px;
-}
-
-.burger-menu {
-    display: none;
-    cursor: pointer;
-}*/
 
 /* hero image section*/
 
@@ -135,7 +122,6 @@ nav {
     overflow-y: hidden;
     height: 90vh;
     width: 100%;
-   /* overflow: hidden;*/
     padding-bottom: 20px;
     transition: 0s;
 }
@@ -205,13 +191,7 @@ button:hover {
     width: auto;
  }
 
-/*.services-details {
-    display: flex;
-    align-items: center;
-    text-align: left;
-    justify-content: center;
 
-}*/
 #services .services-container {
     align-items: center;
     justify-content: center;
@@ -247,13 +227,6 @@ button:hover {
 }
 
 
-/*#services .services-container {
-    width: 100%;
-    height: 20vh;
-   /* margin-top: 20px;
-    margin-bottom: 10px;
-}*/
-
 #left-item {
     float: left;
     align-items: center;
@@ -287,21 +260,6 @@ button:hover {
         align-items: right;
         margin: 0 auto;
         }
-
-
-
-/*.services-details div {
-width: 50%;
-height: 370px;
-
-padding: 10px 0 0 10px;
-text-align: center;
-border: 2px solid blue;
-box-sizing: border-box;
-clear: both;
-justify-content: space-around;
-
-}*/
 
 
 .services-list-left h3 {
@@ -346,10 +304,8 @@ justify-content: space-around;
 }
 
 
-/* Contact us*/
-/*#contact .contact {
-    flex-direction: column;
-}*/
+/* Contact details section*/
+
 
 #contact .contact-items {
     display: flex;
