@@ -550,7 +550,6 @@ p {
         html {
             font-size: 15px;
         }
-        
        
         #hero .hero-container {
             width: 100%;
@@ -578,7 +577,11 @@ p {
             width: 80%;
             display: flex;
             flex-direction: column;
-            padding: 5px 5px;
+            padding: 5px 50px;
+        }
+        #contact {
+            padding-top: 10px;
+            height: 100%;
         }
       }
 
@@ -588,12 +591,6 @@ p {
         font-size: 18px;
         scroll-behavior: smooth;
       
-    }
-    .navigation-links {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-       
     }
 
     * {
@@ -616,7 +613,7 @@ p {
         padding-top: 20px;
     }
     #contact {
-        padding-top: 250px;
+        padding-top: 150px;
         height: 100%;
     }
     .nav {
@@ -626,7 +623,7 @@ p {
 
 /*For medium screen sizes from 958px wide and down*/
 
-@media screen and (max-width: 958px) {
+/*@media screen and (max-width: 958px) {
     body {
         scroll-behavior: smooth;
     }
@@ -657,7 +654,7 @@ p {
     .cta {
         display: none;
     }
-}
+}*/
 
 /* Medium devices (768px and down) */
 @media screen and (max-width:768px) {
@@ -665,7 +662,6 @@ p {
         font-size: 16px;
         scroll-behavior: smooth;
     }
-
 
     .hero-container {
         width: auto;
@@ -678,9 +674,9 @@ p {
         height: 100%;
     }
     #hero img {
-    height: 10%;
-    z-index: -1;
-}
+        height: 10%;
+        z-index: -1;
+        }
     .services-intro {
         height: 400px;
     }
@@ -721,7 +717,7 @@ p {
         margin: 0 auto;
     }
     .contact {
-        padding-top: 30px;
+        padding-top: 410px;
  
     }
 
@@ -785,32 +781,34 @@ p {
         flex-direction: column-reverse;
         
     }
+    button {
+        display: none;
+    }
  
     #services {
-        padding: 0;
+        padding-top: 0;
     }
-    #left-item,  #right-item {
-        width: 300px;
-        padding: 0;
+
+   /* #left-item, #right-item {
+       width: 90px;
+        padding: 900px;
         display: flex;
         float: left;
         flex-direction: column;     
         text-align: center;
-       
         height: auto;
-        
         line-height: 10px;
         justify-content: space-around;
       
         align-items: flex-start;
     
-    }
+    }*/
     .services-container {
-       text-align: left;
-    
-        width: 200px;
-        margin: 0;
-
+        text-align: left;
+        width: 100%;
+        align-items: flex-start;
+        text-align: center;
+        
     }
 
     .contact, .contact-items {
@@ -822,7 +820,7 @@ p {
         
     }
     .contact {
-        padding-top: 3000px;
+        padding-top: 2000px;
  
     }
 footer {

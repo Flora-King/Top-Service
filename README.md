@@ -56,7 +56,7 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 * The user is also able to select multiple services they might be interested in and indicate their location before submitting the form
 * On clicking the submit button, an alert message is displayed to confirm the enquiry submission has been successful.
 
-> {Enquiry Form page image} 
+![Enquiry-Form-page](https://user-images.githubusercontent.com/106548101/178159132-8e0127c7-974c-44a0-a6fe-5c6414bb1377.PNG) 
 
 ## Testing
 
@@ -84,13 +84,20 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 
 ### Validator Testing
 
-* The HTML code remains without errors after a few adjustments carried out following the validation reports generated prior to this one
+* HTML
+    * The HTML code remains without errors after a few adjustments carried out following the validation reports generated prior to this one
 
 <img width="1199" alt="W3_HTML_Validator" src="https://user-images.githubusercontent.com/106548101/176719310-510d802d-0947-4528-bd4f-d8e046d5503a.png">
 
-* The CSS style code also remains without errors after a few adjustments carried out following the validation reports generated prior to this one
+* CSS
+    * The CSS style code also remains without errors after a few adjustments carried out following the validation reports generated prior to this one
 
 <img width="1559" alt="W3_CSS_Validator" src="https://user-images.githubusercontent.com/106548101/176719359-ae79c542-9df9-4b80-9efe-1c0ccd6a4ddd.png">
+
+* Accessibility
+ * I have validted that accessibility is good. My accessibility report shows a low perfomance report. This is due to the many font awesome icons i have used in this website.
+
+![Accessibility Report](https://user-images.githubusercontent.com/106548101/178159136-7760498c-b203-4f28-ae2a-1302027937c4.PNG)
 
 ### Bugs and Errors
 
@@ -101,7 +108,7 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 
 #### Unsolved
 
-* None at the moment
+* My accessibility report shows a low perfomance report. This is due to the many font awesome icons i have used in this website. 
 
 ## Deployment 
 
@@ -115,7 +122,7 @@ To publish/deploy my project, i followed these steps:
 2 open project you want to publish/deploy
 3 navigate to settings
 4 open Github pages section
-5 selected the [main] branch under source
+5 Selected the [main] branch under source
 6 All done
 7 click on the link confirm your website is online
 
