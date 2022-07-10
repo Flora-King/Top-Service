@@ -721,7 +721,7 @@ p {
         margin: 0 auto;
     }
     .contact {
-        padding-top: 300px;
+        padding-top: 30px;
  
     }
 
@@ -775,7 +775,7 @@ p {
        
     }
     .services-intro {
-        height: 200px;
+        height: 100px;
     }
     .services-container {
         padding: 0 10px;
@@ -784,52 +784,51 @@ p {
     .hero-statement {
         flex-direction: column-reverse;
         
-      
     }
  
     #services {
-        padding: 0 auto;
+        padding: 0;
     }
     #left-item,  #right-item {
-        width: fit-content;
+        width: 300px;
         padding: 0;
-         display: flex;
-        float: right;
+        display: flex;
+        float: left;
         flex-direction: column;     
         text-align: center;
-        flex-basis: 100%;
+       
         height: auto;
         
         line-height: 10px;
         justify-content: space-around;
       
-        clear: both;
         align-items: flex-start;
     
     }
     .services-container {
-       
+       text-align: left;
     
-        width: 450px;
+        width: 200px;
         margin: 0;
 
     }
 
     .contact, .contact-items {
-   text-align: center;
+        text-align: center;
         flex-direction: column-reverse;
         float: left;
         display: flex;
+        clear: both;
         
     }
     .contact {
-        padding-top: 2500px;
+        padding-top: 3000px;
  
     }
 footer {
     padding: 30px;
     padding-top: 9000px;
-}
+    }
 }
 
 
