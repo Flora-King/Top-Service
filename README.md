@@ -105,13 +105,19 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 
 ## Deployment 
 
-The site was deployed in GitHub. The steps to deploy are as follows:
+The TOP-service website was deployed in GitHub. 
 
-1 From the Github project that I already created, I followed the following steps:
-The live website can be found here  Top Service
-2 
-3 
+* I created a github project, and followed provided instructions to apply the Code institute template 
+* Once the project finished rendering, i proceeded to write code for my project [TOP service] in gitpod 
 
+To publish/deploy my project, i followed these steps:
+1 navigate to github
+2 open project you want to publish/deploy
+3 navigate to settings
+4 open Github pages section
+5 selected the [main] branch under source
+6 All done
+7 click on the link confirm your website is online
 
 
 The live website can be found here [Top_service website]: https://flora-king.github.io/Top-Service/

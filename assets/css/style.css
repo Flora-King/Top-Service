@@ -146,7 +146,7 @@ nav {
     font-size: 30px;
     font-weight: bolder;
     margin-top: 300px;
-    background-color: rgba(93, 97, 97, 0.8);
+    background-color: rgba(13, 44, 44, 0.8);
     width: 900px;
     display: flex;
     line-height: 40px;
@@ -771,7 +771,7 @@ p {
 
 }
 
-@media only screen and (max-width: 582px) {
+/*@media only screen and (max-width: 582px) {
     .navigation-links {
         bottom: 0;
         
@@ -792,7 +792,7 @@ p {
     html {
         scroll-behavior: smooth;
     }
-}
+}*/
 
 
 
@@ -830,32 +830,35 @@ p {
         
       
     }
-
+ 
+    #services {
+        padding: 0 auto;
+    }
     #left-item,  #right-item {
-        display: flex;
-        float: left;
-        flex-direction: column-reverse;     
-        text-align: left;
-        justify-content: left;
-        height: fit-content;
-        width: 350px;
-        line-height: 10px;
-        margin: 0  auto;
+        width: fit-content;
         padding: 0;
-       
+         display: flex;
+        float: right;
+        flex-direction: column;     
+        text-align: center;
+        flex-basis: 100%;
+        height: auto;
+        
+        line-height: 10px;
+        justify-content: space-around;
+      
+        clear: both;
+        align-items: flex-start;
     
     }
-    .services-container p {
-        padding-bottom: 200px;
-    }
-    .services-details {
-        padding-top: 500px;
-     width: fit-content;
-     column-count: 1;
-     column-width: auto;
-      
+    .services-container {
+       
+    
+        width: 450px;
+        margin: 0;
 
     }
+
     .contact, .contact-items {
    text-align: center;
         flex-direction: column-reverse;
@@ -864,23 +867,16 @@ p {
         
     }
     .contact {
-        padding-top: 3500px;
+        padding-top: 2500px;
  
     }
-
+footer {
+    padding: 30px;
+    padding-top: 9000px;
+}
 }
 
 
-
-/*@media only screen and (min-width:1280px){
-    .navigation-links {
-        font-size: 60%;
-    }
-    #services {
-        margin: 0 0 20vh 0;
-    }
-    
-}
 
   
   
