@@ -709,44 +709,22 @@ p {
         font-size: 16px;
         scroll-behavior: smooth;
     }
-    body {
-        overflow: hidden;
-    }
 
-    nav {
-        top: 0;
-    }
+
     .hero-container {
         width: auto;
     
         overflow-x: hidden;
     }
-    /*.navigation-links {
-        position: absolute;
-        right: 0px;
-        height: 100vh;
-        top: 10vh;
-        background-color: rgb(74, 80, 71);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 35%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+    nav {
+     background-color: black;
+        top: 0;
+        height: 100%;
     }
-
-    .navigation-links li {
-        opacity: 0;
-    }
-
-    .burger-menu {
-        display: none;
-    }
-
-    .nav-active {
-        transform: translateX(0%);
-    }*/
-
+    #hero img {
+    height: 10%;
+    z-index: -1;
+}
     .services-intro {
         height: 400px;
     }
@@ -755,8 +733,42 @@ p {
     }
     .hero-container
      {
-        height: fit-content;
+        height: 50%;
     }
+    .hero-statement h1 {
+      
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;
+        margin-top: 300px;
+        margin-top: 300px;
+        width: 60%;
+        z-index: 1;
+   
+    }
+    #Services {
+      
+        height: 100%;
+    
+    }
+    .services-container p {
+        padding-bottom: 100px;
+    }
+    .services-details {
+        height: inherit;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    .contact, .contact-items {
+   
+        height: inherit;
+        margin: 0 auto;
+    }
+    .contact {
+        padding-top: 300px;
+ 
+    }
+
 }
 
 @media only screen and (max-width: 582px) {
@@ -789,18 +801,73 @@ p {
         font-size: 16px;
         scroll-behavior: smooth;
     }
+    .logo {
+        font-size: 16px;
+    }
+    nav {
+       display: inline-block;
+       flex-direction: column-reverse;
+       text-align: center;
+       top: 0;
+    }
+
+    nav a {
+        display: inline-block;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        padding: 10px;
+       
+    }
     .services-intro {
-        height: 400px;
+        height: 200px;
     }
     .services-container {
         padding: 0 10px;
     }
     
     .hero-statement {
-        flex-direction:column;
-       width: 100%;
-       font-size: smaller;
+        flex-direction: column-reverse;
+        
+      
     }
+
+    #left-item,  #right-item {
+        display: flex;
+        float: left;
+        flex-direction: column-reverse;     
+        text-align: left;
+        justify-content: left;
+        height: fit-content;
+        width: 350px;
+        line-height: 10px;
+        margin: 0  auto;
+        padding: 0;
+       
+    
+    }
+    .services-container p {
+        padding-bottom: 200px;
+    }
+    .services-details {
+        padding-top: 500px;
+     width: fit-content;
+     column-count: 1;
+     column-width: auto;
+      
+
+    }
+    .contact, .contact-items {
+   text-align: center;
+        flex-direction: column-reverse;
+        float: left;
+        display: flex;
+        
+    }
+    .contact {
+        padding-top: 3500px;
+ 
+    }
+
 }
 
 
