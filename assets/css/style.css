@@ -73,6 +73,7 @@ nav {
     letter-spacing: 5px;
     font-size: 20px;
     text-decoration: none;
+
 }
 
 .navigation-links {
@@ -354,14 +355,20 @@ justify-content: space-around;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
+ 
 #contact .contact h2 {
     text-align: center;
     justify-content: space-around;
     display: flex;
     color: #009688;
     text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    
 
 }
 
@@ -382,7 +389,7 @@ justify-content: space-around;
     margin-bottom: 10px;
     font-weight: 60;
     color: #009688;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .right-details h3 {
@@ -390,7 +397,7 @@ justify-content: space-around;
     margin-bottom: 10px;
     font-weight: 60;
     color: #009688;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .middle-details h3 {
@@ -398,7 +405,7 @@ justify-content: space-around;
     margin-bottom: 10px;
     font-weight: 60;
     color: #009688;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .left-details p {
@@ -587,6 +594,7 @@ p {
 @media only screen and (max-width: 320px) {
     html {
         font-size: 16px;
+        scroll-behavior: smooth;
     }
     .services-intro {
         height: 400px;
@@ -594,15 +602,11 @@ p {
     .services-container {
         padding: 0 10px;
     }
-    html {
-        scroll-behavior: smooth;
-    }
-    .hero-statement h1 {
+    
+    .hero-statement {
         flex-direction:column;
-        /*height: 450px;
-        justify-content: center;
-        padding-top: 0;
-        text-align: center;*/
+       width: 100%;
+       font-size: smaller;
     }
 }
 
@@ -632,6 +636,10 @@ p {
 
 /* Medium devices (768px and down) */
 @media screen and (max-width:768px) {
+    html {
+        font-size: 16px;
+        scroll-behavior: smooth;
+    }
     body {
         overflow: hidden;
     }
@@ -655,7 +663,7 @@ p {
     }
 
     .burger-menu {
-        display: block;
+        display: none;
     }
 
     .nav-active {
@@ -674,16 +682,52 @@ p {
     }
 }
 
+      /*For medium screen sizes from 958px wide and down*/
+
+      @media screen and (max-width: 958px) {
+        body {
+            scroll-behavior: smooth;
+        }
+    
+        .navigation-links {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            line-height: 25px;
+        }
+    
+        .hero-container {
+            float: left;
+            margin-left: auto;
+            width: 20%;
+            text-align: center;
+            align-items: center;
+            font-size: x-small;
+        }
+    
+        #services {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .services-intro h1 {
+            padding-top: 40px;
+        }
+        .cta {
+            display: none;
+        }
+    }
 /* Large devices (1024px and down) */
   @media only screen and (max-width:1024px) {
     html {
         font-size: 18px;
+        scroll-behavior: smooth;
+        
     }
     .navigation-links {
         align-items: center;
         display: flex;
         justify-content: space-between;
-        width: 100%;
+       
     }
 
     * {
@@ -694,6 +738,16 @@ p {
     }
     .services-container {
         padding: 0 15px;
+    }
+    .services-details {
+        padding: 0 auto;
+        height: 50%;
+    }
+    .contact {
+        padding-top: 0 10px;
+    }
+    .nav {
+        position: fixed;
     }
   }
 
@@ -734,6 +788,8 @@ p {
         }
       }
 
+
+
 /*@media only screen and (min-width:1280px){
     .navigation-links {
         font-size: 60%;
@@ -752,34 +808,3 @@ p {
 }*/
   
   
-/*For medium screen sizes from 950px wide and down/*
-@media screen and (max-width: 950px) {
-    body {
-        scroll-behavior: smooth;
-    }
-
-    .navigation-links {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        line-height: 25px;
-    }
-
-    .hero-container {
-        float: left;
-        margin-left: auto;
-        width: 20%;
-        text-align: center;
-        align-items: center;
-        font-size: x-small;
-    }
-
-    #services {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .cta {
-        display: none;
-    }
-}
